@@ -13,11 +13,6 @@ app.get('/', function (req, res){
 })
 
 
-
-
-
-
-
 //import the router files
 const personRoutes = require('./routes/personRoutes');
 app.use('/person', personRoutes);
@@ -28,4 +23,7 @@ app.use('/menu', menuItemRoutes);
 app.listen(3000, ()=>{
     console.log('listening on port 3000');
 })
+
+
+//comment add for testing purpose
 
